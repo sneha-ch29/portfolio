@@ -33,6 +33,7 @@ export const PORTFOLIO_DATA = {
     email: "mahatosneha0329@gmail.com",
     phone: "+91-6202900467",
     linkedin: "https://www.linkedin.com/in/sneha-mahato/",
+    github: "https://github.com/sneha-ch29",
     summary:
       "Results-driven Software Engineer with nearly 4 years of experience specializing in Java Spring Boot, microservices, and backend development. Proven expertise in designing scalable systems, optimizing performance by up to 30%, and delivering secure solutions in Agile environments.",
   },
@@ -42,10 +43,14 @@ export const PORTFOLIO_DATA = {
       items: [
         "Java",
         "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
         "Hibernate",
         "Microservices",
         "REST APIs",
+        "Spring Security",
         "Spring AI",
+        "C/C++",
         "Python",
       ],
       icon: Server,
@@ -60,7 +65,6 @@ export const PORTFOLIO_DATA = {
         "HTML",
         "CSS",
         "Responsive UI",
-        "REST API Integration",
       ],
       icon: Terminal
 
@@ -85,13 +89,12 @@ export const PORTFOLIO_DATA = {
     {
       company: "GlobalLogic",
       role: "Senior Software Engineer",
-      period: "Sept 2024 – Present",
+      period: "Sept 2025 – Present",
       description: "Working as a FullStack Engineer, developing scalable backend services using Java and Spring Boot while building responsive and reusable React.js UI components. Contributing to API integration, application performance, code quality, and end-to-end feature delivery in an Agile environment.",
       achievements: [
         "Developed and enhanced Spring Boot microservices and REST APIs to support scalable business workflows.",
         "Built reusable React.js components and integrated frontend applications with backend REST APIs.",
         "Implemented state management and optimized UI rendering to improve application responsiveness and user experience.",
-        "Participated in code reviews, debugging, unit testing, and performance optimization across frontend and backend components.",
         "Collaborated with cross-functional teams to deliver features from requirement analysis through development, testing, and deployment."
       ],
       techStack: ["Java","Spring Boot","React.js","JavaScript","Node.js","Microservices","REST APIs"],
@@ -99,13 +102,12 @@ export const PORTFOLIO_DATA = {
     {
       company: "Infosys LTD",
       role: "Senior Systems Associate",
-      period: "May 2023 – Sept 2024",
+      period: "May 2023 – Sept 2025",
       description:
         "Worked on a sustainability management platform for a European banking client, developing secure and scalable Spring Boot microservices and REST APIs while supporting frontend integration and ensuring GDPR-compliant handling of sustainability and collateral data.",
       achievements: [
         "Designed and deployed 12+ Spring Boot microservices, contributing to a 30% improvement in overall system performance.",
-        "Developed and optimized REST APIs for high-volume data exchange, reducing response times by 20%.",
-        "Integrated backend APIs with dynamic frontend workflows and collaborated with UI developers to deliver seamless end-to-end features.",
+        "Spearheaded OpenShift deployment strategies, achieving 15% higher uptime and cutting cloud costs by 10%.",
         "Mentored 3 junior developers, improving team code quality metrics by 30%.",
       ],
       techStack: ["Java", "Spring Boot","Hibernate","React.js","REST APIs", "OpenShift", "Microservices"],
@@ -119,8 +121,6 @@ export const PORTFOLIO_DATA = {
       achievements: [
         "Developed and enhanced Java-based microservices and backend components, reducing data processing latency by 20%.",
         "Designed and implemented 8 microservices and batch jobs, improving overall processing speed by 15%.",
-        "Developed REST APIs and database integrations to support reliable data exchange between distributed systems.",
-        "Streamlined deployment workflows using AWS, reducing release cycles by 50%.",
         "Maintained 90%+ test coverage through comprehensive JUnit and Mockito-based unit testing.",
       ],
       techStack: ["Java", "Spring Boot","Microservices","REST APIs","AWS", "SQL", "Batch Processing"],

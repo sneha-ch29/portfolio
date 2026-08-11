@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin } from "lucide-react";
+import { Mail, Phone, Linkedin, Github } from "lucide-react";
 import { PORTFOLIO_DATA } from "../../utils";
 import { SectionWrapper } from "../SectionWrapper";
 
@@ -51,6 +51,21 @@ export const Contact = () => {
               </div>
               <span className="text-slate-300 group-hover:text-white transition-colors font-medium text-lg">
                 LinkedIn Profile
+              </span>
+            </a>
+
+            <a
+              href={PORTFOLIO_DATA.personal.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-4 group"
+            >
+              <div className="w-16 h-16 rounded-full bg-slate-800 flex items-center justify-center group-hover:bg-blue-600 transition-all duration-300 border border-slate-700 group-hover:border-blue-500 shadow-lg group-hover:shadow-blue-900/20">
+                <Github className="w-8 h-8 text-slate-300 group-hover:text-white transition-colors" />
+              </div>
+
+              <span className="text-slate-300 group-hover:text-white transition-colors font-medium text-lg">
+                View My GitHub
               </span>
             </a>
           </div>
