@@ -11,8 +11,8 @@ export const Contact = () => {
             Let's engineer something scalable.
           </h2>
           <p className="text-slate-300 mb-12 max-w-2xl text-lg">
-            I'm actively looking for Senior Backend or Full Stack roles where I
-            can leverage my experience in Spring Boot and Microservices.
+            I’m open to Senior Backend and Full Stack opportunities where I can build scalable, 
+            reliable solutions using Java, Spring Boot, Microservices, and React.
           </p>
 
           <div className="flex flex-col md:flex-row gap-8 md:gap-16">

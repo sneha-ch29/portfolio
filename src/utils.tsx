@@ -128,6 +128,14 @@ export const PORTFOLIO_DATA = {
   ] as Experience[],
   projects: [
     {
+      title: "iApply – Applicant Integration Platform",
+      role: "Full Stack Develope",
+      description: 
+        "A scalable applicant integration platform for iCIMS, connecting the core Applicant Tracking System with external job partners such as Indeed and LinkedIn. Built and maintained Spring Boot microservices, BFF integrations, and React.js components to support job publishing, candidate application workflows, and seamless data exchange across systems.",
+      metrics: ["30% Faster API Processing 25% Improved Integration Efficiency"],
+      tags: ["Java, SpringBoot, Microservices,React ,node.js, RESTAPI"],
+    },
+    {
       title: "Sustainability Mgmt Platform",
       role: "Lead Backend Developer",
       description:
