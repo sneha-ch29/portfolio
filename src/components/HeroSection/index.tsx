@@ -74,7 +74,7 @@ export const Hero = () => {
               <span className="text-blue-400">const</span> skills = [
               <span className="text-green-400">"Java"</span>,{" "}
               <span className="text-green-400">"Spring Boot"</span>,{" "}
-              <span className="text-green-400">"AWS"</span>];
+              <span className="text-green-400">"Microservices"</span>];
             </div>
             <div className="pl-4">
               <span className="text-slate-400">// Impact metrics</span>

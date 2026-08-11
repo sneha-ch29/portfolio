@@ -29,7 +29,7 @@ export const PORTFOLIO_DATA = {
     title: "Senior FullStack Engineer",
     tagline:
       "Building scalable microservices & optimizing distributed systems.",
-    location: "Hyderabad, India",
+    location: "Bengaluru, KA, India",
     email: "mahatosneha0329@gmail.com",
     phone: "+91-6202900467",
     linkedin: "https://www.linkedin.com/in/sneha-mahato/",
@@ -129,7 +129,7 @@ export const PORTFOLIO_DATA = {
   projects: [
     {
       title: "iApply – Applicant Integration Platform",
-      role: "Full Stack Develope",
+      role: "Full Stack Developer",
       description: 
         "A scalable applicant integration platform for iCIMS, connecting the core Applicant Tracking System with external job partners such as Indeed and LinkedIn. Built and maintained Spring Boot microservices, BFF integrations, and React.js components to support job publishing, candidate application workflows, and seamless data exchange across systems.",
       metrics: ["30% Faster API Processing 25% Improved Integration Efficiency"],

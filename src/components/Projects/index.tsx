@@ -18,7 +18,8 @@ export const Projects = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="overflow-x-auto pb-6 scrollbar-hide">
+        <div className="flex gap-6">
         {PORTFOLIO_DATA.projects.map((proj, idx) => (
           <div
             key={idx}
@@ -65,6 +66,7 @@ export const Projects = () => {
             </div>
           </div>
         ))}
+        </div>
       </div>
     </SectionWrapper>
   );

@@ -15,7 +15,8 @@ export const Skills = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="overflow-x-auto pb-6 scrollbar-hide">
+        <div className="flex gap-6">
         {PORTFOLIO_DATA.skills.map((skillGroup, idx) => (
           <Card key={idx} className="p-6">
             <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4">
@@ -36,6 +37,7 @@ export const Skills = () => {
             </div>
           </Card>
         ))}
+        </div>
       </div>
     </SectionWrapper>
   );
