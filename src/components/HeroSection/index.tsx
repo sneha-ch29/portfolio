@@ -4,7 +4,7 @@ import { PORTFOLIO_DATA } from "../../utils";
 
 export const Hero = () => {
   return (
-    <div className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+    <div className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden" id="about">
       {/* Background Decor */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,var(--tw-gradient-stops))] from-blue-50 via-slate-50 to-white"></div>
       <div className="absolute top-20 right-0 -z-10 opacity-10 transform translate-x-1/3">
